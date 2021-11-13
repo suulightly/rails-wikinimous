@@ -1,0 +1,38 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "bootstrap/scss/bootstrap";
+
+.article-title {
+  border-bottom: 1px solid lightgrey;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navbar-light .navbar-brand {
+  color: grey;
+}
+
+.navbar {
+  border-bottom: 0.5px solid rgb(167, 163, 163);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-light .navbar-new-article {
+  color: grey;
+  font-size: smaller;
+}
+
+p {
+  margin-top: 16px;
+}
+
+.container {
+  width: 700px;
+}
